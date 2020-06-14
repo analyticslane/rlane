@@ -1,0 +1,19 @@
+---
+title: "Creación de un vignette de ejempo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Creación de un vignette de ejempo}
+  %\VignetteEngine{knitr::rmarkdown}
+  \usepackage[utf8]{inputenc}
+---
+
+En este documento vamos a crear un vignette de ejemplo para mostrar como incluir este tipo de documentación en nuestro paquete. Para lo que se utiliza un archivo con la sintaxis de `rmarkdown`.
+
+## Código de ejemplo
+
+En nuestro documento podemos incluir código de ejemplo simplemente empleando tres comillas sencillas invertidas. Por ejemplo, se puede mostrar como sumar dos números con la función suma:
+
+```{r}
+library(rlane)
+suma(1,2)
+```

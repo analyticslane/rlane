@@ -1,0 +1,13 @@
+Package: rlane
+Type: Package
+Title: Plantilla de Paquete R
+Version: 0.1.0
+Author: Daniel Rodríguez
+Maintainer: Daniel Rodríguez <daniel.rodriguez@analyticslane.com>
+Description: Esta es un paquete de ejemplo creado para el tutorial de Analytics Lane.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat, knitr, rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.0
